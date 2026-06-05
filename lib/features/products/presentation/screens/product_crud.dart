@@ -92,7 +92,7 @@ class _ProductCrudState extends ConsumerState<ProductCrud> {
                       subtitle: Text(
                         "₹${product.price} | ${product.category} | ${product.description}",
                       ),
-                    
+
                       trailing: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
@@ -108,7 +108,7 @@ class _ProductCrudState extends ConsumerState<ProductCrud> {
                                   ),
                                 ),
                               );
-                    
+
                               loadProducts();
                             },
                           ),
